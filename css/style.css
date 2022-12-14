@@ -1,0 +1,99 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: arial, helvetica;
+    color: #333;
+    font-size: 1.2rem;
+    line-height: 1.4em;
+    background: #e8e8e8;
+    margin: 0;
+}
+
+.container {
+    width: 100%;
+    padding: 0 15px;
+    /* max-width: 10000px; */
+    margin: auto;
+}
+
+.section {
+    width: 100%;
+    height: 500px;
+    padding: 0 15px;
+    margin: auto;
+}
+
+#home {
+    background: url(./../image/gio_barreto.jpg) no-repeat 0 0 transparent 100%;
+    background-size: cover;
+}
+
+.hero-img {
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+}
+
+#about_me {
+    display: flex;
+}
+
+p {
+    margin-bottom: 1.6em;
+}
+
+.header {
+    background: #1D2F54;
+    color: white;
+    padding: 2rem 0;
+}
+
+.header a {
+    color: white;
+    text-decoration: none;
+}
+
+.logo-nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+/* .logo {
+    letter-spacing
+} */
+
+.navigation ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.navigation ul li {
+    display: inline-block;
+}
+
+.navigation ul li a {
+    display: block;
+    padding: 0.5rem 1rem;
+    transition: all 0.4s linear;
+    border-radius: 5px;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+.navigation ul li a:hover {
+    background: #5A709D;
+}
+
+.footer {
+    background: #CCD4D5;
+    padding: 4rem 0;
+    text-align: center;
+    margin-top: 6rem;
+}
+
+.gioim {}
